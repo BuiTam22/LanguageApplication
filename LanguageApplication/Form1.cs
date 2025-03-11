@@ -18,11 +18,28 @@ namespace LanguageApplication
             this.mntFeature.Enabled = true;
         }
 
-        private void mntLogIn_Click(object sender, EventArgs e)
+        public void openLogInForm()
         {
             Login theLogIn = new Login(this);
             theLogIn.Show();
+        }
 
+        private void mntLogIn_Click(object sender, EventArgs e)
+        {
+            openLogInForm();
+
+        }
+
+        private void mntLogOut_Click(object sender, EventArgs e)
+        {
+            // dang xuat thi phan chuc nang se bi tat
+            this.mntFeature.Enabled = false;
+            openLogInForm();
+        }
+
+        private void mntOut_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

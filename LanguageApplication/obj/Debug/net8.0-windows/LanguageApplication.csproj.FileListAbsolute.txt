@@ -16,3 +16,4 @@ G:\LanguageApplication\LanguageApplication\obj\Debug\net8.0-windows\LanguageAppl
 G:\LanguageApplication\LanguageApplication\obj\Debug\net8.0-windows\LanguageApplication.genruntimeconfig.cache
 G:\LanguageApplication\LanguageApplication\obj\Debug\net8.0-windows\ref\LanguageApplication.dll
 G:\LanguageApplication\LanguageApplication\obj\Debug\net8.0-windows\LanguageApplication.SignUp.resources
+G:\LanguageApplication\LanguageApplication\obj\Debug\net8.0-windows\LanguageApplication.sourcelink.json

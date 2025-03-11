@@ -3,7 +3,15 @@
   "WorkspaceRootPath": "G:\\LanguageApplication\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FD915FAC-7964-45A8-A5F4-53080D49AD94}|LanguageApplication\\LanguageApplication.csproj|g:\\languageapplication\\languageapplication\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{FD915FAC-7964-45A8-A5F4-53080D49AD94}|LanguageApplication\\LanguageApplication.csproj|G:\\LanguageApplication\\languageapplication\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FD915FAC-7964-45A8-A5F4-53080D49AD94}|LanguageApplication\\LanguageApplication.csproj|solutionrelative:languageapplication\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD915FAC-7964-45A8-A5F4-53080D49AD94}|LanguageApplication\\LanguageApplication.csproj|G:\\LanguageApplication\\languageapplication\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FD915FAC-7964-45A8-A5F4-53080D49AD94}|LanguageApplication\\LanguageApplication.csproj|solutionrelative:languageapplication\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD915FAC-7964-45A8-A5F4-53080D49AD94}|LanguageApplication\\LanguageApplication.csproj|G:\\LanguageApplication\\languageapplication\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{FD915FAC-7964-45A8-A5F4-53080D49AD94}|LanguageApplication\\LanguageApplication.csproj|solutionrelative:languageapplication\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -11,12 +19,8 @@
       "RelativeMoniker": "D:0:0:{FD915FAC-7964-45A8-A5F4-53080D49AD94}|LanguageApplication\\LanguageApplication.csproj|solutionrelative:languageapplication\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD915FAC-7964-45A8-A5F4-53080D49AD94}|LanguageApplication\\LanguageApplication.csproj|g:\\languageapplication\\languageapplication\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FD915FAC-7964-45A8-A5F4-53080D49AD94}|LanguageApplication\\LanguageApplication.csproj|solutionrelative:languageapplication\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD915FAC-7964-45A8-A5F4-53080D49AD94}|LanguageApplication\\LanguageApplication.csproj|G:\\LanguageApplication\\languageapplication\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FD915FAC-7964-45A8-A5F4-53080D49AD94}|LanguageApplication\\LanguageApplication.csproj|solutionrelative:languageapplication\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{FD915FAC-7964-45A8-A5F4-53080D49AD94}|LanguageApplication\\LanguageApplication.csproj|g:\\languageapplication\\languageapplication\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD915FAC-7964-45A8-A5F4-53080D49AD94}|LanguageApplication\\LanguageApplication.csproj|solutionrelative:languageapplication\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,24 +30,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "G:\\LanguageApplication\\LanguageApplication\\Form1.cs",
+              "RelativeDocumentMoniker": "LanguageApplication\\Form1.cs",
+              "ToolTip": "G:\\LanguageApplication\\LanguageApplication\\Form1.cs",
+              "RelativeToolTip": "LanguageApplication\\Form1.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAIA1wCkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T11:10:45.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Login.cs",
               "DocumentMoniker": "G:\\LanguageApplication\\LanguageApplication\\Login.cs",
               "RelativeDocumentMoniker": "LanguageApplication\\Login.cs",
               "ToolTip": "G:\\LanguageApplication\\LanguageApplication\\Login.cs",
               "RelativeToolTip": "LanguageApplication\\Login.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAIA9wCIAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAApwCIAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-11T10:50:13.177Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "SignUp.cs [Design]",
               "DocumentMoniker": "G:\\LanguageApplication\\LanguageApplication\\SignUp.cs",
               "RelativeDocumentMoniker": "LanguageApplication\\SignUp.cs",
@@ -55,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Login.cs [Design]",
               "DocumentMoniker": "G:\\LanguageApplication\\LanguageApplication\\Login.cs",
               "RelativeDocumentMoniker": "LanguageApplication\\Login.cs",
@@ -67,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "G:\\LanguageApplication\\LanguageApplication\\Form1.cs",
               "RelativeDocumentMoniker": "LanguageApplication\\Form1.cs",

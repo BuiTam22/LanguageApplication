@@ -34,8 +34,8 @@
             mntLogOut = new ToolStripMenuItem();
             mntOut = new ToolStripMenuItem();
             mntFeature = new ToolStripMenuItem();
-            thêmToolStripMenuItem = new ToolStripMenuItem();
             mntTopicStudied = new ToolStripMenuItem();
+            thêmToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -58,21 +58,23 @@
             // mntLogIn
             // 
             mntLogIn.Name = "mntLogIn";
-            mntLogIn.Size = new Size(132, 22);
+            mntLogIn.Size = new Size(180, 22);
             mntLogIn.Text = "Đăng nhập";
             mntLogIn.Click += mntLogIn_Click;
             // 
             // mntLogOut
             // 
             mntLogOut.Name = "mntLogOut";
-            mntLogOut.Size = new Size(132, 22);
+            mntLogOut.Size = new Size(180, 22);
             mntLogOut.Text = "Đăng xuất";
+            mntLogOut.Click += mntLogOut_Click;
             // 
             // mntOut
             // 
             mntOut.Name = "mntOut";
-            mntOut.Size = new Size(132, 22);
+            mntOut.Size = new Size(180, 22);
             mntOut.Text = "Thoát";
+            mntOut.Click += mntOut_Click;
             // 
             // mntFeature
             // 
@@ -82,17 +84,17 @@
             mntFeature.Size = new Size(77, 20);
             mntFeature.Text = "Chức năng";
             // 
+            // mntTopicStudied
+            // 
+            mntTopicStudied.Name = "mntTopicStudied";
+            mntTopicStudied.Size = new Size(141, 22);
+            mntTopicStudied.Text = "Topic đã học";
+            // 
             // thêmToolStripMenuItem
             // 
             thêmToolStripMenuItem.Name = "thêmToolStripMenuItem";
             thêmToolStripMenuItem.Size = new Size(49, 20);
             thêmToolStripMenuItem.Text = "Thêm";
-            // 
-            // mntTopicStudied
-            // 
-            mntTopicStudied.Name = "mntTopicStudied";
-            mntTopicStudied.Size = new Size(180, 22);
-            mntTopicStudied.Text = "Topic đã học";
             // 
             // Form1
             // 
