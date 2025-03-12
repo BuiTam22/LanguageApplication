@@ -41,5 +41,12 @@ namespace LanguageApplication
         {
             this.Close();
         }
+
+        private void mntTopicStudied_Click(object sender, EventArgs e)
+        {
+            TopicDaHoc theTopicDaHoc = new TopicDaHoc();
+            theTopicDaHoc.Show();
+          
+        }
     }
 }

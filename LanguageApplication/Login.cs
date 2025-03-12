@@ -19,6 +19,9 @@ namespace LanguageApplication
             InitializeComponent();
             mainForm = form;  // Nhận tham chiếu tới Form1 hiện tại
         }
+        public Login() {
+            InitializeComponent();
+        }
 
         private void btnSignIn_Click(object sender, EventArgs e)
         {
@@ -34,5 +37,7 @@ namespace LanguageApplication
             theSignUp.Show();
             this.Close();
         }
+
+
     }
 }

@@ -10,19 +10,11 @@ using System.Windows.Forms;
 
 namespace LanguageApplication
 {
-    public partial class SignUp : Form
+    public partial class TopicDaHoc: Form
     {
-        public SignUp()
+        public TopicDaHoc()
         {
             InitializeComponent();
-        }
-
-        private void btnSignUp_Click(object sender, EventArgs e)
-        {
-            // viet cau truy van tao User
-            Login theLogIn = new Login();
-            theLogIn.Show();
-            this.Close();
         }
     }
 }
