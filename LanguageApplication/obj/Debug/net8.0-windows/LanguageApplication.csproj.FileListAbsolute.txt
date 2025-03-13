@@ -22,7 +22,6 @@ D:\Documents\Dai_Hoc\Nam_3\Ky_2\Lap_trinh_phan_tan\LanguageApplication\LanguageA
 D:\Documents\Dai_Hoc\Nam_3\Ky_2\Lap_trinh_phan_tan\LanguageApplication\LanguageApplication\bin\Debug\net8.0-windows\LanguageApplication.runtimeconfig.json
 D:\Documents\Dai_Hoc\Nam_3\Ky_2\Lap_trinh_phan_tan\LanguageApplication\LanguageApplication\bin\Debug\net8.0-windows\LanguageApplication.dll
 D:\Documents\Dai_Hoc\Nam_3\Ky_2\Lap_trinh_phan_tan\LanguageApplication\LanguageApplication\bin\Debug\net8.0-windows\LanguageApplication.pdb
-D:\Documents\Dai_Hoc\Nam_3\Ky_2\Lap_trinh_phan_tan\LanguageApplication\LanguageApplication\obj\Debug\net8.0-windows\LanguageApplication.Form1.resources
 D:\Documents\Dai_Hoc\Nam_3\Ky_2\Lap_trinh_phan_tan\LanguageApplication\LanguageApplication\obj\Debug\net8.0-windows\LanguageApplication.Login.resources
 D:\Documents\Dai_Hoc\Nam_3\Ky_2\Lap_trinh_phan_tan\LanguageApplication\LanguageApplication\obj\Debug\net8.0-windows\LanguageApplication.SignUp.resources
 D:\Documents\Dai_Hoc\Nam_3\Ky_2\Lap_trinh_phan_tan\LanguageApplication\LanguageApplication\obj\Debug\net8.0-windows\LanguageApplication.csproj.GenerateResource.cache
@@ -37,3 +36,11 @@ D:\Documents\Dai_Hoc\Nam_3\Ky_2\Lap_trinh_phan_tan\LanguageApplication\LanguageA
 D:\Documents\Dai_Hoc\Nam_3\Ky_2\Lap_trinh_phan_tan\LanguageApplication\LanguageApplication\obj\Debug\net8.0-windows\LanguageApplication.genruntimeconfig.cache
 D:\Documents\Dai_Hoc\Nam_3\Ky_2\Lap_trinh_phan_tan\LanguageApplication\LanguageApplication\obj\Debug\net8.0-windows\ref\LanguageApplication.dll
 D:\Documents\Dai_Hoc\Nam_3\Ky_2\Lap_trinh_phan_tan\LanguageApplication\LanguageApplication\obj\Debug\net8.0-windows\LanguageApplication.TopicDaHoc.resources
+D:\Documents\Dai_Hoc\Nam_3\Ky_2\Lap_trinh_phan_tan\LanguageApplication\LanguageApplication\obj\Debug\net8.0-windows\LanguageApplication.csproj.AssemblyReference.cache
+D:\Documents\Dai_Hoc\Nam_3\Ky_2\Lap_trinh_phan_tan\LanguageApplication\LanguageApplication\bin\Debug\net8.0-windows\Oracle.ManagedDataAccess.dll
+D:\Documents\Dai_Hoc\Nam_3\Ky_2\Lap_trinh_phan_tan\LanguageApplication\LanguageApplication\bin\Debug\net8.0-windows\System.DirectoryServices.Protocols.dll
+D:\Documents\Dai_Hoc\Nam_3\Ky_2\Lap_trinh_phan_tan\LanguageApplication\LanguageApplication\bin\Debug\net8.0-windows\runtimes\linux\lib\net8.0\System.DirectoryServices.Protocols.dll
+D:\Documents\Dai_Hoc\Nam_3\Ky_2\Lap_trinh_phan_tan\LanguageApplication\LanguageApplication\bin\Debug\net8.0-windows\runtimes\osx\lib\net8.0\System.DirectoryServices.Protocols.dll
+D:\Documents\Dai_Hoc\Nam_3\Ky_2\Lap_trinh_phan_tan\LanguageApplication\LanguageApplication\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.DirectoryServices.Protocols.dll
+D:\Documents\Dai_Hoc\Nam_3\Ky_2\Lap_trinh_phan_tan\LanguageApplication\LanguageApplication\obj\Debug\net8.0-windows\Language.7036FD11.Up2Date
+D:\Documents\Dai_Hoc\Nam_3\Ky_2\Lap_trinh_phan_tan\LanguageApplication\LanguageApplication\obj\Debug\net8.0-windows\LanguageApplication.frmTrangChu.resources

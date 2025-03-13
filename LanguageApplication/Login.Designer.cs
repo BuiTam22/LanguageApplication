@@ -78,7 +78,6 @@
             label2.Size = new Size(87, 25);
             label2.TabIndex = 1;
             label2.Text = "Password";
-    
             // 
             // txtUserName
             // 
@@ -123,6 +122,7 @@
             Name = "Login";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Login";
+            Load += Login_Load;
             ResumeLayout(false);
             PerformLayout();
         }

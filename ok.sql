@@ -33,20 +33,20 @@ create table Vocabulary(
 
 
 insert all
-  into AppUser(id, userName, passWord, name, email) values('u01', 'tambui', '1', 'Bùi V?n Tâm', 'tamse22032004@gmail.com')
-  into AppUser(id, userName, passWord, name, email) values('u02', 'thanhloc', '1', 'Nguy?n Thành L?c', 'thanhloc@gmail.com')
+  into AppUser(id, userName, passWord, name, email) values('u01', 'tambui', '1', 'Bï¿½i V?n Tï¿½m', 'tamse22032004@gmail.com')
+  into AppUser(id, userName, passWord, name, email) values('u02', 'thanhloc', '1', 'Nguy?n Thï¿½nh L?c', 'thanhloc@gmail.com')
 select * from dual;
 select * from AppUser
 
 insert all
-  into Topic(id, userNameCreated, nameTopic, description) values('01', 'tambui', 'Technology', 'Topic này ch?a nh?ng t? liên quan ??n l?nh v?c công ngh?')
-  into Topic(id, userNameCreated, nameTopic, description) values('02', 'thanhloc', 'Education', 'Topic này ch?a nh?ng t? liên quan h?c t?p')
+  into Topic(id, userNameCreated, nameTopic, description) values('01', 'tambui', 'Technology', 'Topic nï¿½y ch?a nh?ng t? liï¿½n quan ??n l?nh v?c cï¿½ng ngh?')
+  into Topic(id, userNameCreated, nameTopic, description) values('02', 'thanhloc', 'Education', 'Topic nï¿½y ch?a nh?ng t? liï¿½n quan h?c t?p')
 select * from dual;
 select * from Topic
 
 insert all
   into WordType(id, nameWordType, description) values('01', 'Adverd', 'Tr?ng t? b? ngh?a cho ??ng t?')
-  into WordType(id, nameWordType, description) values('02', 'Noun', 'Danh t? th??ng làm ch? ng?')
+  into WordType(id, nameWordType, description) values('02', 'Noun', 'Danh t? th??ng lï¿½m ch? ng?')
 select * from dual;
 
 insert all
