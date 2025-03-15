@@ -1,22 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Documents\\Dai_Hoc\\Nam_3\\Ky_2\\Lap_trinh_phan_tan\\LanguageApplication\\",
+  "WorkspaceRootPath": "C:\\Users\\THANH LOC\\OneDrive\\Desktop\\LanguageApplication\\LanguageApplication\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FD915FAC-7964-45A8-A5F4-53080D49AD94}|LanguageApplication\\LanguageApplication.csproj|d:\\documents\\dai_hoc\\nam_3\\ky_2\\lap_trinh_phan_tan\\languageapplication\\languageapplication\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FD915FAC-7964-45A8-A5F4-53080D49AD94}|LanguageApplication\\LanguageApplication.csproj|solutionrelative:languageapplication\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{FD915FAC-7964-45A8-A5F4-53080D49AD94}|LanguageApplication\\LanguageApplication.csproj|c:\\users\\thanh loc\\onedrive\\desktop\\languageapplication\\languageapplication\\languageapplication\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD915FAC-7964-45A8-A5F4-53080D49AD94}|LanguageApplication\\LanguageApplication.csproj|solutionrelative:languageapplication\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD915FAC-7964-45A8-A5F4-53080D49AD94}|LanguageApplication\\LanguageApplication.csproj|d:\\documents\\dai_hoc\\nam_3\\ky_2\\lap_trinh_phan_tan\\languageapplication\\languageapplication\\ketnoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FD915FAC-7964-45A8-A5F4-53080D49AD94}|LanguageApplication\\LanguageApplication.csproj|C:\\Users\\THANH LOC\\OneDrive\\Desktop\\LanguageApplication\\LanguageApplication\\languageapplication\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FD915FAC-7964-45A8-A5F4-53080D49AD94}|LanguageApplication\\LanguageApplication.csproj|solutionrelative:languageapplication\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD915FAC-7964-45A8-A5F4-53080D49AD94}|LanguageApplication\\LanguageApplication.csproj|C:\\Users\\THANH LOC\\OneDrive\\Desktop\\LanguageApplication\\LanguageApplication\\languageapplication\\ketnoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD915FAC-7964-45A8-A5F4-53080D49AD94}|LanguageApplication\\LanguageApplication.csproj|solutionrelative:languageapplication\\ketnoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD915FAC-7964-45A8-A5F4-53080D49AD94}|LanguageApplication\\LanguageApplication.csproj|d:\\documents\\dai_hoc\\nam_3\\ky_2\\lap_trinh_phan_tan\\languageapplication\\languageapplication\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD915FAC-7964-45A8-A5F4-53080D49AD94}|LanguageApplication\\LanguageApplication.csproj|solutionrelative:languageapplication\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FD915FAC-7964-45A8-A5F4-53080D49AD94}|LanguageApplication\\LanguageApplication.csproj|C:\\Users\\THANH LOC\\OneDrive\\Desktop\\LanguageApplication\\LanguageApplication\\languageapplication\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FD915FAC-7964-45A8-A5F4-53080D49AD94}|LanguageApplication\\LanguageApplication.csproj|solutionrelative:languageapplication\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD915FAC-7964-45A8-A5F4-53080D49AD94}|LanguageApplication\\LanguageApplication.csproj|d:\\documents\\dai_hoc\\nam_3\\ky_2\\lap_trinh_phan_tan\\languageapplication\\languageapplication\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD915FAC-7964-45A8-A5F4-53080D49AD94}|LanguageApplication\\LanguageApplication.csproj|solutionrelative:languageapplication\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FD915FAC-7964-45A8-A5F4-53080D49AD94}|LanguageApplication\\LanguageApplication.csproj|C:\\Users\\THANH LOC\\OneDrive\\Desktop\\LanguageApplication\\LanguageApplication\\languageapplication\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD915FAC-7964-45A8-A5F4-53080D49AD94}|LanguageApplication\\LanguageApplication.csproj|solutionrelative:languageapplication\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,55 +30,88 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 10,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Login.cs [Design]",
-              "DocumentMoniker": "D:\\Documents\\Dai_Hoc\\Nam_3\\Ky_2\\Lap_trinh_phan_tan\\LanguageApplication\\LanguageApplication\\Login.cs",
-              "RelativeDocumentMoniker": "LanguageApplication\\Login.cs",
-              "ToolTip": "D:\\Documents\\Dai_Hoc\\Nam_3\\Ky_2\\Lap_trinh_phan_tan\\LanguageApplication\\LanguageApplication\\Login.cs [Design]",
-              "RelativeToolTip": "LanguageApplication\\Login.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T02:52:02.904Z",
-              "EditorCaption": " [Design]"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "KetNoi.cs",
-              "DocumentMoniker": "D:\\Documents\\Dai_Hoc\\Nam_3\\Ky_2\\Lap_trinh_phan_tan\\LanguageApplication\\LanguageApplication\\KetNoi.cs",
-              "RelativeDocumentMoniker": "LanguageApplication\\KetNoi.cs",
-              "ToolTip": "D:\\Documents\\Dai_Hoc\\Nam_3\\Ky_2\\Lap_trinh_phan_tan\\LanguageApplication\\LanguageApplication\\KetNoi.cs",
-              "RelativeToolTip": "LanguageApplication\\KetNoi.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
+              "Title": "SignUp.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\THANH LOC\\OneDrive\\Desktop\\LanguageApplication\\LanguageApplication\\LanguageApplication\\SignUp.cs",
+              "RelativeDocumentMoniker": "LanguageApplication\\SignUp.cs",
+              "ToolTip": "C:\\Users\\THANH LOC\\OneDrive\\Desktop\\LanguageApplication\\LanguageApplication\\LanguageApplication\\SignUp.cs [Design]",
+              "RelativeToolTip": "LanguageApplication\\SignUp.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T02:50:11.751Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Login.cs",
-              "DocumentMoniker": "D:\\Documents\\Dai_Hoc\\Nam_3\\Ky_2\\Lap_trinh_phan_tan\\LanguageApplication\\LanguageApplication\\Login.cs",
-              "RelativeDocumentMoniker": "LanguageApplication\\Login.cs",
-              "ToolTip": "D:\\Documents\\Dai_Hoc\\Nam_3\\Ky_2\\Lap_trinh_phan_tan\\LanguageApplication\\LanguageApplication\\Login.cs",
-              "RelativeToolTip": "LanguageApplication\\Login.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAMwFwAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T13:58:13.425Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-13T12:44:24.405Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\THANH LOC\\OneDrive\\Desktop\\LanguageApplication\\LanguageApplication\\LanguageApplication\\Login.cs",
+              "RelativeDocumentMoniker": "LanguageApplication\\Login.cs",
+              "ToolTip": "C:\\Users\\THANH LOC\\OneDrive\\Desktop\\LanguageApplication\\LanguageApplication\\LanguageApplication\\Login.cs [Design]",
+              "RelativeToolTip": "LanguageApplication\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T02:52:02.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "KetNoi.cs",
+              "DocumentMoniker": "C:\\Users\\THANH LOC\\OneDrive\\Desktop\\LanguageApplication\\LanguageApplication\\LanguageApplication\\KetNoi.cs",
+              "RelativeDocumentMoniker": "LanguageApplication\\KetNoi.cs",
+              "ToolTip": "C:\\Users\\THANH LOC\\OneDrive\\Desktop\\LanguageApplication\\LanguageApplication\\LanguageApplication\\KetNoi.cs",
+              "RelativeToolTip": "LanguageApplication\\KetNoi.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T02:50:11.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\THANH LOC\\OneDrive\\Desktop\\LanguageApplication\\LanguageApplication\\LanguageApplication\\Login.cs",
+              "RelativeDocumentMoniker": "LanguageApplication\\Login.cs",
+              "ToolTip": "C:\\Users\\THANH LOC\\OneDrive\\Desktop\\LanguageApplication\\LanguageApplication\\LanguageApplication\\Login.cs",
+              "RelativeToolTip": "LanguageApplication\\Login.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAMwFwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T13:58:13.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "SignUp.cs",
-              "DocumentMoniker": "D:\\Documents\\Dai_Hoc\\Nam_3\\Ky_2\\Lap_trinh_phan_tan\\LanguageApplication\\LanguageApplication\\SignUp.cs",
+              "DocumentMoniker": "C:\\Users\\THANH LOC\\OneDrive\\Desktop\\LanguageApplication\\LanguageApplication\\LanguageApplication\\SignUp.cs",
               "RelativeDocumentMoniker": "LanguageApplication\\SignUp.cs",
-              "ToolTip": "D:\\Documents\\Dai_Hoc\\Nam_3\\Ky_2\\Lap_trinh_phan_tan\\LanguageApplication\\LanguageApplication\\SignUp.cs",
+              "ToolTip": "C:\\Users\\THANH LOC\\OneDrive\\Desktop\\LanguageApplication\\LanguageApplication\\LanguageApplication\\SignUp.cs",
               "RelativeToolTip": "LanguageApplication\\SignUp.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAxwBkAAAAJAAAAAAAAAA==",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAYwD4AAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-12T13:57:58.529Z",
               "EditorCaption": ""

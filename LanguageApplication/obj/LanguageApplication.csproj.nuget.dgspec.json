@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Documents\\Dai_Hoc\\Nam_3\\Ky_2\\Lap_trinh_phan_tan\\LanguageApplication\\LanguageApplication\\LanguageApplication.csproj": {}
+    "C:\\Users\\THANH LOC\\OneDrive\\Desktop\\LanguageApplication\\LanguageApplication\\LanguageApplication\\LanguageApplication.csproj": {}
   },
   "projects": {
-    "D:\\Documents\\Dai_Hoc\\Nam_3\\Ky_2\\Lap_trinh_phan_tan\\LanguageApplication\\LanguageApplication\\LanguageApplication.csproj": {
+    "C:\\Users\\THANH LOC\\OneDrive\\Desktop\\LanguageApplication\\LanguageApplication\\LanguageApplication\\LanguageApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documents\\Dai_Hoc\\Nam_3\\Ky_2\\Lap_trinh_phan_tan\\LanguageApplication\\LanguageApplication\\LanguageApplication.csproj",
+        "projectUniqueName": "C:\\Users\\THANH LOC\\OneDrive\\Desktop\\LanguageApplication\\LanguageApplication\\LanguageApplication\\LanguageApplication.csproj",
         "projectName": "LanguageApplication",
-        "projectPath": "D:\\Documents\\Dai_Hoc\\Nam_3\\Ky_2\\Lap_trinh_phan_tan\\LanguageApplication\\LanguageApplication\\LanguageApplication.csproj",
-        "packagesPath": "C:\\Users\\Tam\\.nuget\\packages\\",
-        "outputPath": "D:\\Documents\\Dai_Hoc\\Nam_3\\Ky_2\\Lap_trinh_phan_tan\\LanguageApplication\\LanguageApplication\\obj\\",
+        "projectPath": "C:\\Users\\THANH LOC\\OneDrive\\Desktop\\LanguageApplication\\LanguageApplication\\LanguageApplication\\LanguageApplication.csproj",
+        "packagesPath": "C:\\Users\\THANH LOC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\THANH LOC\\OneDrive\\Desktop\\LanguageApplication\\LanguageApplication\\LanguageApplication\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\VisualStudioShareComponents\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Tam\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\THANH LOC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -43,8 +39,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -74,7 +69,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
