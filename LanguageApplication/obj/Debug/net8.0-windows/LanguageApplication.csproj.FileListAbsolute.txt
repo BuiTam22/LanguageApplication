@@ -44,6 +44,7 @@ D:\Documents\Dai_Hoc\Nam_3\Ky_2\Lap_trinh_phan_tan\LanguageApplication\LanguageA
 D:\Documents\Dai_Hoc\Nam_3\Ky_2\Lap_trinh_phan_tan\LanguageApplication\LanguageApplication\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.DirectoryServices.Protocols.dll
 D:\Documents\Dai_Hoc\Nam_3\Ky_2\Lap_trinh_phan_tan\LanguageApplication\LanguageApplication\obj\Debug\net8.0-windows\Language.7036FD11.Up2Date
 D:\Documents\Dai_Hoc\Nam_3\Ky_2\Lap_trinh_phan_tan\LanguageApplication\LanguageApplication\obj\Debug\net8.0-windows\LanguageApplication.frmTrangChu.resources
+<<<<<<< HEAD
 C:\Users\Admin\Desktop\LanguageApplication-main\LanguageApplication\bin\Debug\net8.0-windows\LanguageApplication.exe
 C:\Users\Admin\Desktop\LanguageApplication-main\LanguageApplication\bin\Debug\net8.0-windows\LanguageApplication.deps.json
 C:\Users\Admin\Desktop\LanguageApplication-main\LanguageApplication\bin\Debug\net8.0-windows\LanguageApplication.runtimeconfig.json
@@ -97,3 +98,33 @@ D:\Downloads\LanguageApplication\LanguageApplication\obj\Debug\net8.0-windows\re
 D:\Downloads\LanguageApplication\LanguageApplication\obj\Debug\net8.0-windows\LanguageApplication.pdb
 D:\Downloads\LanguageApplication\LanguageApplication\obj\Debug\net8.0-windows\LanguageApplication.genruntimeconfig.cache
 D:\Downloads\LanguageApplication\LanguageApplication\obj\Debug\net8.0-windows\ref\LanguageApplication.dll
+=======
+C:\Users\THANH LOC\OneDrive\Desktop\LanguageApplication\LanguageApplication\LanguageApplication\bin\Debug\net8.0-windows\LanguageApplication.exe
+C:\Users\THANH LOC\OneDrive\Desktop\LanguageApplication\LanguageApplication\LanguageApplication\bin\Debug\net8.0-windows\LanguageApplication.deps.json
+C:\Users\THANH LOC\OneDrive\Desktop\LanguageApplication\LanguageApplication\LanguageApplication\bin\Debug\net8.0-windows\LanguageApplication.runtimeconfig.json
+C:\Users\THANH LOC\OneDrive\Desktop\LanguageApplication\LanguageApplication\LanguageApplication\bin\Debug\net8.0-windows\LanguageApplication.dll
+C:\Users\THANH LOC\OneDrive\Desktop\LanguageApplication\LanguageApplication\LanguageApplication\bin\Debug\net8.0-windows\LanguageApplication.pdb
+C:\Users\THANH LOC\OneDrive\Desktop\LanguageApplication\LanguageApplication\LanguageApplication\bin\Debug\net8.0-windows\Oracle.ManagedDataAccess.dll
+C:\Users\THANH LOC\OneDrive\Desktop\LanguageApplication\LanguageApplication\LanguageApplication\bin\Debug\net8.0-windows\System.DirectoryServices.Protocols.dll
+C:\Users\THANH LOC\OneDrive\Desktop\LanguageApplication\LanguageApplication\LanguageApplication\bin\Debug\net8.0-windows\System.Formats.Asn1.dll
+C:\Users\THANH LOC\OneDrive\Desktop\LanguageApplication\LanguageApplication\LanguageApplication\bin\Debug\net8.0-windows\runtimes\linux\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\THANH LOC\OneDrive\Desktop\LanguageApplication\LanguageApplication\LanguageApplication\bin\Debug\net8.0-windows\runtimes\osx\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\THANH LOC\OneDrive\Desktop\LanguageApplication\LanguageApplication\LanguageApplication\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\THANH LOC\OneDrive\Desktop\LanguageApplication\LanguageApplication\LanguageApplication\obj\Debug\net8.0-windows\LanguageApplication.csproj.AssemblyReference.cache
+C:\Users\THANH LOC\OneDrive\Desktop\LanguageApplication\LanguageApplication\LanguageApplication\obj\Debug\net8.0-windows\LanguageApplication.frmTrangChu.resources
+C:\Users\THANH LOC\OneDrive\Desktop\LanguageApplication\LanguageApplication\LanguageApplication\obj\Debug\net8.0-windows\LanguageApplication.Login.resources
+C:\Users\THANH LOC\OneDrive\Desktop\LanguageApplication\LanguageApplication\LanguageApplication\obj\Debug\net8.0-windows\LanguageApplication.SignUp.resources
+C:\Users\THANH LOC\OneDrive\Desktop\LanguageApplication\LanguageApplication\LanguageApplication\obj\Debug\net8.0-windows\LanguageApplication.TopicDaHoc.resources
+C:\Users\THANH LOC\OneDrive\Desktop\LanguageApplication\LanguageApplication\LanguageApplication\obj\Debug\net8.0-windows\LanguageApplication.csproj.GenerateResource.cache
+C:\Users\THANH LOC\OneDrive\Desktop\LanguageApplication\LanguageApplication\LanguageApplication\obj\Debug\net8.0-windows\LanguageApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\THANH LOC\OneDrive\Desktop\LanguageApplication\LanguageApplication\LanguageApplication\obj\Debug\net8.0-windows\LanguageApplication.AssemblyInfoInputs.cache
+C:\Users\THANH LOC\OneDrive\Desktop\LanguageApplication\LanguageApplication\LanguageApplication\obj\Debug\net8.0-windows\LanguageApplication.AssemblyInfo.cs
+C:\Users\THANH LOC\OneDrive\Desktop\LanguageApplication\LanguageApplication\LanguageApplication\obj\Debug\net8.0-windows\LanguageApplication.csproj.CoreCompileInputs.cache
+C:\Users\THANH LOC\OneDrive\Desktop\LanguageApplication\LanguageApplication\LanguageApplication\obj\Debug\net8.0-windows\LanguageApplication.sourcelink.json
+C:\Users\THANH LOC\OneDrive\Desktop\LanguageApplication\LanguageApplication\LanguageApplication\obj\Debug\net8.0-windows\Language.7036FD11.Up2Date
+C:\Users\THANH LOC\OneDrive\Desktop\LanguageApplication\LanguageApplication\LanguageApplication\obj\Debug\net8.0-windows\LanguageApplication.dll
+C:\Users\THANH LOC\OneDrive\Desktop\LanguageApplication\LanguageApplication\LanguageApplication\obj\Debug\net8.0-windows\refint\LanguageApplication.dll
+C:\Users\THANH LOC\OneDrive\Desktop\LanguageApplication\LanguageApplication\LanguageApplication\obj\Debug\net8.0-windows\LanguageApplication.pdb
+C:\Users\THANH LOC\OneDrive\Desktop\LanguageApplication\LanguageApplication\LanguageApplication\obj\Debug\net8.0-windows\LanguageApplication.genruntimeconfig.cache
+C:\Users\THANH LOC\OneDrive\Desktop\LanguageApplication\LanguageApplication\LanguageApplication\obj\Debug\net8.0-windows\ref\LanguageApplication.dll
+>>>>>>> loc
