@@ -232,6 +232,8 @@ namespace LanguageApplication
 
         private void button1_Click(object sender, EventArgs e)
         {
+            TopicDetail topicDetail = new TopicDetail();
+            topicDetail.Show();
 
         }
     }

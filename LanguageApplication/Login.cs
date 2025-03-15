@@ -15,7 +15,7 @@ namespace LanguageApplication
     public partial class Login : Form
     {
         public static string currentUser;
-        private frmTrangChu mainForm;
+        private frmTrangChu mainForm = new frmTrangChu();
         OracleConnection conn;
         OracleDataAdapter da;
         OracleCommand cmd;

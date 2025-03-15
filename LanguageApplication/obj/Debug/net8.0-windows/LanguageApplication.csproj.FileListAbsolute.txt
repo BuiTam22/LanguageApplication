@@ -128,3 +128,7 @@ C:\Users\THANH LOC\OneDrive\Desktop\LanguageApplication\LanguageApplication\Lang
 C:\Users\THANH LOC\OneDrive\Desktop\LanguageApplication\LanguageApplication\LanguageApplication\obj\Debug\net8.0-windows\LanguageApplication.genruntimeconfig.cache
 C:\Users\THANH LOC\OneDrive\Desktop\LanguageApplication\LanguageApplication\LanguageApplication\obj\Debug\net8.0-windows\ref\LanguageApplication.dll
 >>>>>>> loc
+D:\Documents\Dai_Hoc\Nam_3\Ky_2\Lap_trinh_phan_tan\LanguageApplication\LanguageApplication\obj\Debug\net8.0-windows\LanguageApplication.TopicDetail.resources
+D:\Documents\Dai_Hoc\Nam_3\Ky_2\Lap_trinh_phan_tan\LanguageApplication\LanguageApplication\obj\Debug\net8.0-windows\LanguageApplication.PracticePronunciation.resources
+D:\Documents\Dai_Hoc\Nam_3\Ky_2\Lap_trinh_phan_tan\LanguageApplication\LanguageApplication\obj\Debug\net8.0-windows\LanguageApplication.PracticeVocabulary.resources
+D:\Documents\Dai_Hoc\Nam_3\Ky_2\Lap_trinh_phan_tan\LanguageApplication\LanguageApplication\obj\Debug\net8.0-windows\LanguageApplication.ViewVocabulary.resources

@@ -76,9 +76,9 @@ namespace LanguageApplication
 
                 MessageBox.Show("Đăng ký thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-                // Chuyển về Form Login
-                Login theLogIn = new Login();
-                theLogIn.Show();
+                //// Chuyển về Form Login
+                //Login theLogIn = new Login();
+                //theLogIn.Show();
                 this.Close();
             }
             catch (OracleException ex)
