@@ -1,10 +1,12 @@
-namespace LanguageApplication
+﻿namespace LanguageApplication
 {
     public partial class frmTrangChu : Form
     {
+        
         public frmTrangChu()
         {
             InitializeComponent();
+            lbusername.Text = "Login";
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -34,6 +36,7 @@ namespace LanguageApplication
         {
             // dang xuat thi phan chuc nang se bi tat
             this.mntFeature.Enabled = false;
+            lbusername.Text = "Login";
             openLogInForm();
         }
 
@@ -46,7 +49,16 @@ namespace LanguageApplication
         {
             TopicDaHoc theTopicDaHoc = new TopicDaHoc();
             theTopicDaHoc.Show();
-          
+
+        }
+
+        private void lbusername_Click(object sender, EventArgs e)
+        {
+           
+        }
+        public void UpdateUserName(string username)
+        {
+            lbusername.Text = username;
         }
     }
 }

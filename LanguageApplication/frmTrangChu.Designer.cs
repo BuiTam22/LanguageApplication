@@ -38,6 +38,7 @@
             thêmToolStripMenuItem = new ToolStripMenuItem();
             label1 = new Label();
             label2 = new Label();
+            lbusername = new Label();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -47,8 +48,8 @@
             menuStrip1.Items.AddRange(new ToolStripItem[] { tàiKhoảnToolStripMenuItem, mntFeature, thêmToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Padding = new Padding(9, 3, 0, 3);
-            menuStrip1.Size = new Size(1094, 35);
+            menuStrip1.Padding = new Padding(7, 2, 0, 2);
+            menuStrip1.Size = new Size(875, 28);
             menuStrip1.TabIndex = 0;
             menuStrip1.Text = "menuStrip1";
             // 
@@ -56,27 +57,27 @@
             // 
             tàiKhoảnToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { mntLogIn, mntLogOut, mntOut });
             tàiKhoảnToolStripMenuItem.Name = "tàiKhoảnToolStripMenuItem";
-            tàiKhoảnToolStripMenuItem.Size = new Size(103, 29);
+            tàiKhoảnToolStripMenuItem.Size = new Size(87, 24);
             tàiKhoảnToolStripMenuItem.Text = "Tài Khoản";
             // 
             // mntLogIn
             // 
             mntLogIn.Name = "mntLogIn";
-            mntLogIn.Size = new Size(202, 34);
+            mntLogIn.Size = new Size(165, 26);
             mntLogIn.Text = "Đăng nhập";
             mntLogIn.Click += mntLogIn_Click;
             // 
             // mntLogOut
             // 
             mntLogOut.Name = "mntLogOut";
-            mntLogOut.Size = new Size(202, 34);
+            mntLogOut.Size = new Size(165, 26);
             mntLogOut.Text = "Đăng xuất";
             mntLogOut.Click += mntLogOut_Click;
             // 
             // mntOut
             // 
             mntOut.Name = "mntOut";
-            mntOut.Size = new Size(202, 34);
+            mntOut.Size = new Size(165, 26);
             mntOut.Text = "Thoát";
             mntOut.Click += mntOut_Click;
             // 
@@ -85,29 +86,30 @@
             mntFeature.DropDownItems.AddRange(new ToolStripItem[] { mntTopicStudied });
             mntFeature.Enabled = false;
             mntFeature.Name = "mntFeature";
-            mntFeature.Size = new Size(113, 29);
+            mntFeature.Size = new Size(93, 24);
             mntFeature.Text = "Chức năng";
             // 
             // mntTopicStudied
             // 
             mntTopicStudied.Name = "mntTopicStudied";
-            mntTopicStudied.Size = new Size(214, 34);
+            mntTopicStudied.Size = new Size(177, 26);
             mntTopicStudied.Text = "Topic đã học";
             mntTopicStudied.Click += mntTopicStudied_Click;
             // 
             // thêmToolStripMenuItem
             // 
             thêmToolStripMenuItem.Name = "thêmToolStripMenuItem";
-            thêmToolStripMenuItem.Size = new Size(72, 29);
+            thêmToolStripMenuItem.Size = new Size(60, 24);
             thêmToolStripMenuItem.Text = "Thêm";
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 20F);
-            label1.Location = new Point(344, 166);
+            label1.Location = new Point(275, 133);
+            label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
-            label1.Size = new Size(385, 54);
+            label1.Size = new Size(324, 46);
             label1.TabIndex = 1;
             label1.Text = "Lady and gentlemen";
             // 
@@ -115,23 +117,36 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 20F);
-            label2.Location = new Point(286, 284);
+            label2.Location = new Point(229, 227);
+            label2.Margin = new Padding(2, 0, 2, 0);
             label2.Name = "label2";
-            label2.Size = new Size(537, 54);
+            label2.Size = new Size(459, 46);
             label2.TabIndex = 1;
             label2.Text = "Wecome to Group 4's Project";
             // 
+            // lbusername
+            // 
+            lbusername.AutoSize = true;
+            lbusername.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbusername.Location = new Point(742, 42);
+            lbusername.Name = "lbusername";
+            lbusername.Size = new Size(59, 25);
+            lbusername.TabIndex = 2;
+            lbusername.Text = "label3";
+            lbusername.Click += lbusername_Click;
+            // 
             // frmTrangChu
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.LightYellow;
-            ClientSize = new Size(1094, 740);
+            ClientSize = new Size(875, 592);
+            Controls.Add(lbusername);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(menuStrip1);
             MainMenuStrip = menuStrip1;
-            Margin = new Padding(4, 5, 4, 5);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "frmTrangChu";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Trang chủ";
@@ -155,5 +170,6 @@
         private ToolStripMenuItem mntTopicStudied;
         private Label label1;
         private Label label2;
+        private Label lbusername;
     }
 }

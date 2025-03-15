@@ -1,22 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Documents\\Dai_Hoc\\Nam_3\\Ky_2\\Lap_trinh_phan_tan\\LanguageApplication\\",
+  "WorkspaceRootPath": "D:\\Downloads\\LanguageApplication\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FD915FAC-7964-45A8-A5F4-53080D49AD94}|LanguageApplication\\LanguageApplication.csproj|d:\\documents\\dai_hoc\\nam_3\\ky_2\\lap_trinh_phan_tan\\languageapplication\\languageapplication\\ketnoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD915FAC-7964-45A8-A5F4-53080D49AD94}|LanguageApplication\\LanguageApplication.csproj|solutionrelative:languageapplication\\ketnoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FD915FAC-7964-45A8-A5F4-53080D49AD94}|LanguageApplication\\LanguageApplication.csproj|d:\\downloads\\languageapplication\\languageapplication\\frmtrangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FD915FAC-7964-45A8-A5F4-53080D49AD94}|LanguageApplication\\LanguageApplication.csproj|solutionrelative:languageapplication\\frmtrangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD915FAC-7964-45A8-A5F4-53080D49AD94}|LanguageApplication\\LanguageApplication.csproj|d:\\documents\\dai_hoc\\nam_3\\ky_2\\lap_trinh_phan_tan\\languageapplication\\languageapplication\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD915FAC-7964-45A8-A5F4-53080D49AD94}|LanguageApplication\\LanguageApplication.csproj|solutionrelative:languageapplication\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD915FAC-7964-45A8-A5F4-53080D49AD94}|LanguageApplication\\LanguageApplication.csproj|d:\\documents\\dai_hoc\\nam_3\\ky_2\\lap_trinh_phan_tan\\languageapplication\\languageapplication\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FD915FAC-7964-45A8-A5F4-53080D49AD94}|LanguageApplication\\LanguageApplication.csproj|solutionrelative:languageapplication\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD915FAC-7964-45A8-A5F4-53080D49AD94}|LanguageApplication\\LanguageApplication.csproj|d:\\documents\\dai_hoc\\nam_3\\ky_2\\lap_trinh_phan_tan\\languageapplication\\languageapplication\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD915FAC-7964-45A8-A5F4-53080D49AD94}|LanguageApplication\\LanguageApplication.csproj|solutionrelative:languageapplication\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FD915FAC-7964-45A8-A5F4-53080D49AD94}|LanguageApplication\\LanguageApplication.csproj|d:\\downloads\\languageapplication\\languageapplication\\frmtrangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD915FAC-7964-45A8-A5F4-53080D49AD94}|LanguageApplication\\LanguageApplication.csproj|solutionrelative:languageapplication\\frmtrangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,57 +18,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Login.cs [Design]",
-              "DocumentMoniker": "D:\\Documents\\Dai_Hoc\\Nam_3\\Ky_2\\Lap_trinh_phan_tan\\LanguageApplication\\LanguageApplication\\Login.cs",
-              "RelativeDocumentMoniker": "LanguageApplication\\Login.cs",
-              "ToolTip": "D:\\Documents\\Dai_Hoc\\Nam_3\\Ky_2\\Lap_trinh_phan_tan\\LanguageApplication\\LanguageApplication\\Login.cs [Design]",
-              "RelativeToolTip": "LanguageApplication\\Login.cs [Design]",
+              "DocumentIndex": 0,
+              "Title": "frmTrangChu.cs [Design]",
+              "DocumentMoniker": "D:\\Downloads\\LanguageApplication\\LanguageApplication\\frmTrangChu.cs",
+              "RelativeDocumentMoniker": "LanguageApplication\\frmTrangChu.cs",
+              "ToolTip": "D:\\Downloads\\LanguageApplication\\LanguageApplication\\frmTrangChu.cs [Design]",
+              "RelativeToolTip": "LanguageApplication\\frmTrangChu.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T02:52:02.904Z",
+              "WhenOpened": "2025-03-15T13:45:15.477Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "KetNoi.cs",
-              "DocumentMoniker": "D:\\Documents\\Dai_Hoc\\Nam_3\\Ky_2\\Lap_trinh_phan_tan\\LanguageApplication\\LanguageApplication\\KetNoi.cs",
-              "RelativeDocumentMoniker": "LanguageApplication\\KetNoi.cs",
-              "ToolTip": "D:\\Documents\\Dai_Hoc\\Nam_3\\Ky_2\\Lap_trinh_phan_tan\\LanguageApplication\\LanguageApplication\\KetNoi.cs",
-              "RelativeToolTip": "LanguageApplication\\KetNoi.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAABlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T02:50:11.751Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Login.cs",
-              "DocumentMoniker": "D:\\Documents\\Dai_Hoc\\Nam_3\\Ky_2\\Lap_trinh_phan_tan\\LanguageApplication\\LanguageApplication\\Login.cs",
-              "RelativeDocumentMoniker": "LanguageApplication\\Login.cs",
-              "ToolTip": "D:\\Documents\\Dai_Hoc\\Nam_3\\Ky_2\\Lap_trinh_phan_tan\\LanguageApplication\\LanguageApplication\\Login.cs",
-              "RelativeToolTip": "LanguageApplication\\Login.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAMwFwAAAAjAAAAAAAAAA==",
+              "Title": "frmTrangChu.cs",
+              "DocumentMoniker": "D:\\Downloads\\LanguageApplication\\LanguageApplication\\frmTrangChu.cs",
+              "RelativeDocumentMoniker": "LanguageApplication\\frmTrangChu.cs",
+              "ToolTip": "D:\\Downloads\\LanguageApplication\\LanguageApplication\\frmTrangChu.cs",
+              "RelativeToolTip": "LanguageApplication\\frmTrangChu.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA3wCYAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T13:58:13.425Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SignUp.cs",
-              "DocumentMoniker": "D:\\Documents\\Dai_Hoc\\Nam_3\\Ky_2\\Lap_trinh_phan_tan\\LanguageApplication\\LanguageApplication\\SignUp.cs",
-              "RelativeDocumentMoniker": "LanguageApplication\\SignUp.cs",
-              "ToolTip": "D:\\Documents\\Dai_Hoc\\Nam_3\\Ky_2\\Lap_trinh_phan_tan\\LanguageApplication\\LanguageApplication\\SignUp.cs",
-              "RelativeToolTip": "LanguageApplication\\SignUp.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAxwBkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T13:57:58.529Z",
+              "WhenOpened": "2025-03-14T07:39:30.951Z",
               "EditorCaption": ""
             }
           ]
