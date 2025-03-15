@@ -456,19 +456,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\THANH LOC\\.nuget\\packages\\": {}
+    "C:\\Users\\Tam\\.nuget\\packages\\": {},
+    "D:\\VisualStudioShareComponents\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\THANH LOC\\OneDrive\\Desktop\\LanguageApplication\\LanguageApplication\\LanguageApplication\\LanguageApplication.csproj",
+      "projectUniqueName": "D:\\Documents\\Dai_Hoc\\Nam_3\\Ky_2\\Lap_trinh_phan_tan\\LanguageApplication\\LanguageApplication\\LanguageApplication.csproj",
       "projectName": "LanguageApplication",
-      "projectPath": "C:\\Users\\THANH LOC\\OneDrive\\Desktop\\LanguageApplication\\LanguageApplication\\LanguageApplication\\LanguageApplication.csproj",
-      "packagesPath": "C:\\Users\\THANH LOC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\THANH LOC\\OneDrive\\Desktop\\LanguageApplication\\LanguageApplication\\LanguageApplication\\obj\\",
+      "projectPath": "D:\\Documents\\Dai_Hoc\\Nam_3\\Ky_2\\Lap_trinh_phan_tan\\LanguageApplication\\LanguageApplication\\LanguageApplication.csproj",
+      "packagesPath": "C:\\Users\\Tam\\.nuget\\packages\\",
+      "outputPath": "D:\\Documents\\Dai_Hoc\\Nam_3\\Ky_2\\Lap_trinh_phan_tan\\LanguageApplication\\LanguageApplication\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\VisualStudioShareComponents\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\THANH LOC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Tam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -493,7 +498,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net8.0-windows7.0": {
@@ -523,7 +529,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

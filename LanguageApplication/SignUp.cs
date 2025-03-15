@@ -8,12 +8,20 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Oracle.ManagedDataAccess.Client;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 
 
 namespace LanguageApplication
 {
     public partial class SignUp : Form
     {
+        public static string currentUser;
+        private frmTrangChu mainForm;
+        OracleConnection conn;
+        OracleDataAdapter da;
+        OracleCommand cmd;
+        DataTable dt;
+        string sql = "";
         public SignUp()
         {
             InitializeComponent();
@@ -34,38 +42,74 @@ namespace LanguageApplication
                 return;
             }
 
-            // Chuỗi kết nối đến Oracle
-            string conString = "User Id=LanguageApplication;Password=123456;Data Source=192.168.29.1";
-
-            using (OracleConnection con = new OracleConnection(conString))
+            try
             {
-                try
+                if (conn.State != ConnectionState.Open)
+                    conn.Open();
+
+                // Kiểm tra xem username đã tồn tại hay chưa
+                string sqlCheckUserName = "SELECT COUNT(*) FROM AppUser WHERE UserName = :userName";
+                using (OracleCommand cmd = new OracleCommand(sqlCheckUserName, conn))
                 {
-                    con.Open();
+                    cmd.Parameters.Add(new OracleParameter("userName", userName));
 
-                    using (OracleCommand cmd = new OracleCommand("SignUpUser", con))
+                    int count = Convert.ToInt32(cmd.ExecuteScalar());
+                    if (count > 0)
                     {
-                        cmd.CommandType = CommandType.StoredProcedure;
-
-                        cmd.Parameters.Add("p_userName", OracleDbType.Varchar2).Value = userName;
-                        cmd.Parameters.Add("p_passWord", OracleDbType.Varchar2).Value = password;
-                        cmd.Parameters.Add("p_name", OracleDbType.NVarchar2).Value = "Default Name"; // Hoặc txtName.Text.Trim();
-                        cmd.Parameters.Add("p_email", OracleDbType.Varchar2).Value = "default@email.com"; // Hoặc txtEmail.Text.Trim();
-
-                        cmd.ExecuteNonQuery();
-                        MessageBox.Show("Đăng ký thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-                    // Chuyển về Form Login
-                    Login theLogIn = new Login();
-                        theLogIn.Show();
-                        this.Close();
+                        MessageBox.Show("Tên người dùng đã tồn tại. Vui lòng chọn tên khác!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        return;
                     }
                 }
-                catch (OracleException ex)
+
+                // Nếu username chưa tồn tại, thực hiện đăng ký
+                int idNew = GetNextId();
+                string sqlInsert = "INSERT INTO AppUser (Id, UserName, Password) VALUES (:id, :userName, :password)";
+
+                using (OracleCommand cmdInsert = new OracleCommand(sqlInsert, conn))
                 {
-                    MessageBox.Show("Lỗi đăng ký: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    cmdInsert.Parameters.Add(new OracleParameter("id", idNew));
+                    cmdInsert.Parameters.Add(new OracleParameter("userName", userName));
+                    cmdInsert.Parameters.Add(new OracleParameter("password", password));  // Cần mã hóa mật khẩu trước khi lưu
+
+                    cmdInsert.ExecuteNonQuery();
                 }
+
+                MessageBox.Show("Đăng ký thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                // Chuyển về Form Login
+                Login theLogIn = new Login();
+                theLogIn.Show();
+                this.Close();
             }
+            catch (OracleException ex)
+            {
+                MessageBox.Show("Lỗi đăng ký: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+
+        private int GetNextId()
+        {
+            try
+            {
+                if (conn.State != ConnectionState.Open)
+                    conn.Open();
+
+                string sql = "SELECT NVL(MAX(id), 0) + 1 FROM AppUser";
+                OracleCommand cmd = new OracleCommand(sql, conn);
+
+                return Convert.ToInt32(cmd.ExecuteScalar());
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi: " + ex.Message);
+                return -1;
+            }
+        }
+
+        private void SignUp_Load(object sender, EventArgs e)
+        {
+            conn = KetNoi.connectDB();
         }
     }
 }
