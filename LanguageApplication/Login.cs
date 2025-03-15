@@ -14,12 +14,14 @@ namespace LanguageApplication
 {
     public partial class Login : Form
     {
-        private frmTrangChu mainForm;
+        public static string currentUser;
+        private frmTrangChu mainForm = new frmTrangChu();
         OracleConnection conn;
         OracleDataAdapter da;
         OracleCommand cmd;
         DataTable dt;
         string sql = "";
+        String username = "";
         public Login(frmTrangChu form)
         {
             InitializeComponent();
@@ -40,7 +42,7 @@ namespace LanguageApplication
                 if (conn.State != ConnectionState.Open)
                     conn.Open();
 
-                string username = txtUserName.Text.Trim();
+                 username = txtUserName.Text.Trim();
                 string password = txtPassWord.Text.Trim();
 
                 if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password))
@@ -59,7 +61,9 @@ namespace LanguageApplication
                 if (userCount > 0)
                 {
                     MessageBox.Show("Đăng nhập thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    currentUser = txtUserName.Text;
                     mainForm.setMntFeatureEnableTrue();
+                    mainForm.UpdateUserName(username);
                     this.Close();
                 }
                 else

@@ -59,3 +59,41 @@ insert all
 select * from dual;
 
 select * from Vocabulary;
+
+CREATE OR REPLACE PROCEDURE SignUpUser(
+    p_userName IN VARCHAR2,
+    p_passWord IN VARCHAR2,
+    p_name IN NVARCHAR2,
+    p_email IN VARCHAR2
+)
+AS
+    v_count NUMBER;
+    v_id VARCHAR2(10);
+BEGIN
+    -- Ki?m tra xem Username ho?c Email ?� t?n t?i ch?a
+    SELECT COUNT(*) INTO v_count FROM AppUser WHERE userName = p_userName OR email = p_email;
+
+    IF v_count > 0 THEN
+        RAISE_APPLICATION_ERROR(-20001, 'Username ho?c Email ?� t?n t?i!');
+    ELSE
+        -- L?y ID m?i t? sequence
+        SELECT 'u' || LPAD(AppUser_Seq.NEXTVAL, 2, '0') INTO v_id FROM dual;
+
+        -- Th�m user m?i v�o b?ng
+        INSERT INTO AppUser (id, userName, passWord, name, email)
+        VALUES (v_id, p_userName, p_passWord, p_name, p_email);
+
+        COMMIT;
+    END IF;
+END SignUpUser;
+
+
+CREATE SEQUENCE AppUser_Seq
+START WITH 3
+INCREMENT BY 1
+NOCACHE
+NOCYCLE;
+
+DELETE FROM AppUser WHERE userName = 'danhquang';
+COMMIT;
+
