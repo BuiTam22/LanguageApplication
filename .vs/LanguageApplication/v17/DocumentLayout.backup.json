@@ -1,22 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Tam\\Desktop\\LanguageApplication\\LanguageApplication\\",
+  "WorkspaceRootPath": "D:\\Documents\\Dai_Hoc\\Nam_3\\Ky_2\\Lap_trinh_phan_tan\\LanguageApplication\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FD915FAC-7964-45A8-A5F4-53080D49AD94}|LanguageApplication\\LanguageApplication.csproj|c:\\users\\tam\\desktop\\languageapplication\\languageapplication\\languageapplication\\ketnoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD915FAC-7964-45A8-A5F4-53080D49AD94}|LanguageApplication\\LanguageApplication.csproj|solutionrelative:languageapplication\\ketnoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FD915FAC-7964-45A8-A5F4-53080D49AD94}|LanguageApplication\\LanguageApplication.csproj|d:\\documents\\dai_hoc\\nam_3\\ky_2\\lap_trinh_phan_tan\\languageapplication\\languageapplication\\practicevocabulary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD915FAC-7964-45A8-A5F4-53080D49AD94}|LanguageApplication\\LanguageApplication.csproj|solutionrelative:languageapplication\\practicevocabulary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD915FAC-7964-45A8-A5F4-53080D49AD94}|LanguageApplication\\LanguageApplication.csproj|c:\\users\\tam\\desktop\\languageapplication\\languageapplication\\languageapplication\\topicdahoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD915FAC-7964-45A8-A5F4-53080D49AD94}|LanguageApplication\\LanguageApplication.csproj|solutionrelative:languageapplication\\topicdahoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FD915FAC-7964-45A8-A5F4-53080D49AD94}|LanguageApplication\\LanguageApplication.csproj|d:\\documents\\dai_hoc\\nam_3\\ky_2\\lap_trinh_phan_tan\\languageapplication\\languageapplication\\practicevocabulary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FD915FAC-7964-45A8-A5F4-53080D49AD94}|LanguageApplication\\LanguageApplication.csproj|solutionrelative:languageapplication\\practicevocabulary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD915FAC-7964-45A8-A5F4-53080D49AD94}|LanguageApplication\\LanguageApplication.csproj|C:\\Users\\Tam\\Desktop\\LanguageApplication\\LanguageApplication\\languageapplication\\viewvocabulary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FD915FAC-7964-45A8-A5F4-53080D49AD94}|LanguageApplication\\LanguageApplication.csproj|solutionrelative:languageapplication\\viewvocabulary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{FD915FAC-7964-45A8-A5F4-53080D49AD94}|LanguageApplication\\LanguageApplication.csproj|d:\\documents\\dai_hoc\\nam_3\\ky_2\\lap_trinh_phan_tan\\languageapplication\\languageapplication\\practicevocabulary.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD915FAC-7964-45A8-A5F4-53080D49AD94}|LanguageApplication\\LanguageApplication.csproj|solutionrelative:languageapplication\\practicevocabulary.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD915FAC-7964-45A8-A5F4-53080D49AD94}|LanguageApplication\\LanguageApplication.csproj|C:\\Users\\Tam\\Desktop\\LanguageApplication\\LanguageApplication\\languageapplication\\topicdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FD915FAC-7964-45A8-A5F4-53080D49AD94}|LanguageApplication\\LanguageApplication.csproj|solutionrelative:languageapplication\\topicdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{FD915FAC-7964-45A8-A5F4-53080D49AD94}|LanguageApplication\\LanguageApplication.csproj|d:\\documents\\dai_hoc\\nam_3\\ky_2\\lap_trinh_phan_tan\\languageapplication\\languageapplication\\viewvocabulary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD915FAC-7964-45A8-A5F4-53080D49AD94}|LanguageApplication\\LanguageApplication.csproj|solutionrelative:languageapplication\\viewvocabulary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,54 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "KetNoi.cs",
-              "DocumentMoniker": "C:\\Users\\Tam\\Desktop\\LanguageApplication\\LanguageApplication\\LanguageApplication\\KetNoi.cs",
-              "RelativeDocumentMoniker": "LanguageApplication\\KetNoi.cs",
-              "ToolTip": "C:\\Users\\Tam\\Desktop\\LanguageApplication\\LanguageApplication\\LanguageApplication\\KetNoi.cs",
-              "RelativeToolTip": "LanguageApplication\\KetNoi.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABKAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "PracticeVocabulary.Designer.cs",
+              "DocumentMoniker": "D:\\Documents\\Dai_Hoc\\Nam_3\\Ky_2\\Lap_trinh_phan_tan\\LanguageApplication\\LanguageApplication\\PracticeVocabulary.Designer.cs",
+              "RelativeDocumentMoniker": "LanguageApplication\\PracticeVocabulary.Designer.cs",
+              "ToolTip": "D:\\Documents\\Dai_Hoc\\Nam_3\\Ky_2\\Lap_trinh_phan_tan\\LanguageApplication\\LanguageApplication\\PracticeVocabulary.Designer.cs",
+              "RelativeToolTip": "LanguageApplication\\PracticeVocabulary.Designer.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAkwJEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T04:49:48.336Z",
+              "WhenOpened": "2025-03-17T06:00:33.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PracticeVocabulary.cs",
+              "DocumentMoniker": "D:\\Documents\\Dai_Hoc\\Nam_3\\Ky_2\\Lap_trinh_phan_tan\\LanguageApplication\\LanguageApplication\\PracticeVocabulary.cs",
+              "RelativeDocumentMoniker": "LanguageApplication\\PracticeVocabulary.cs",
+              "ToolTip": "D:\\Documents\\Dai_Hoc\\Nam_3\\Ky_2\\Lap_trinh_phan_tan\\LanguageApplication\\LanguageApplication\\PracticeVocabulary.cs",
+              "RelativeToolTip": "LanguageApplication\\PracticeVocabulary.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAwE4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T05:55:08.079Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "TopicDaHoc.cs",
-              "DocumentMoniker": "C:\\Users\\Tam\\Desktop\\LanguageApplication\\LanguageApplication\\LanguageApplication\\TopicDaHoc.cs",
-              "RelativeDocumentMoniker": "LanguageApplication\\TopicDaHoc.cs",
-              "ToolTip": "C:\\Users\\Tam\\Desktop\\LanguageApplication\\LanguageApplication\\LanguageApplication\\TopicDaHoc.cs",
-              "RelativeToolTip": "LanguageApplication\\TopicDaHoc.cs",
-              "ViewState": "AgIAALMAAAAAAAAAAAAswOkAAAAJAAAAAAAAAA==",
+              "Title": "PracticeVocabulary.cs [Design]",
+              "DocumentMoniker": "D:\\Documents\\Dai_Hoc\\Nam_3\\Ky_2\\Lap_trinh_phan_tan\\LanguageApplication\\LanguageApplication\\PracticeVocabulary.cs",
+              "RelativeDocumentMoniker": "LanguageApplication\\PracticeVocabulary.cs",
+              "ToolTip": "D:\\Documents\\Dai_Hoc\\Nam_3\\Ky_2\\Lap_trinh_phan_tan\\LanguageApplication\\LanguageApplication\\PracticeVocabulary.cs [Design]",
+              "RelativeToolTip": "LanguageApplication\\PracticeVocabulary.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T04:37:11.398Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ViewVocabulary.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Tam\\Desktop\\LanguageApplication\\LanguageApplication\\LanguageApplication\\ViewVocabulary.cs",
-              "RelativeDocumentMoniker": "LanguageApplication\\ViewVocabulary.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\LanguageApplication\\LanguageApplication\\ViewVocabulary.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\Admin\\Desktop\\LanguageApplication\\LanguageApplication\\ViewVocabulary.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T16:03:19.143Z"
+              "WhenOpened": "2025-03-17T05:55:06.565Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "TopicDetail.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Tam\\Desktop\\LanguageApplication\\LanguageApplication\\LanguageApplication\\TopicDetail.cs",
-              "RelativeDocumentMoniker": "LanguageApplication\\TopicDetail.cs",
-              "ToolTip": "D:\\Documents\\Dai_Hoc\\Nam_3\\Ky_2\\Lap_trinh_phan_tan\\LanguageApplication\\LanguageApplication\\TopicDetail.cs [Design]",
+              "Title": "ViewVocabulary.cs",
+              "DocumentMoniker": "D:\\Documents\\Dai_Hoc\\Nam_3\\Ky_2\\Lap_trinh_phan_tan\\LanguageApplication\\LanguageApplication\\ViewVocabulary.cs",
+              "RelativeDocumentMoniker": "LanguageApplication\\ViewVocabulary.cs",
+              "ToolTip": "D:\\Documents\\Dai_Hoc\\Nam_3\\Ky_2\\Lap_trinh_phan_tan\\LanguageApplication\\LanguageApplication\\ViewVocabulary.cs",
+              "RelativeToolTip": "LanguageApplication\\ViewVocabulary.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAmwDQAAABZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T16:03:04.85Z"
+              "WhenOpened": "2025-03-17T05:54:40.563Z",
+              "EditorCaption": ""
             }
           ]
         }

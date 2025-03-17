@@ -31,7 +31,7 @@ namespace LanguageApplication
 
         private void btnPracticeVocabulary_Click(object sender, EventArgs e)
         {
-            PracticeVocabulary practiceVocabulary = new PracticeVocabulary();
+            PracticeVocabulary practiceVocabulary = new PracticeVocabulary(idTopic);
             practiceVocabulary.Show();
         }
 
