@@ -28,34 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-<<<<<<< HEAD
-            dgvVocabulary = new DataGridView();
-            ((System.ComponentModel.ISupportInitialize)dgvVocabulary).BeginInit();
-=======
-<<<<<<< HEAD
-            dataGridView1 = new DataGridView();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
->>>>>>> 7cbf72d50f91fba888ceb01791b71dda90268081
-            SuspendLayout();
-            // 
-            // dgvVocabulary
-            // 
-<<<<<<< HEAD
-=======
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(79, 68);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(714, 237);
-            dataGridView1.TabIndex = 0;
-=======
             dgvVocabulary = new DataGridView();
             ((System.ComponentModel.ISupportInitialize)dgvVocabulary).BeginInit();
             SuspendLayout();
             // 
             // dgvVocabulary
             // 
->>>>>>> 7cbf72d50f91fba888ceb01791b71dda90268081
             dgvVocabulary.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvVocabulary.Location = new Point(32, 36);
             dgvVocabulary.Name = "dgvVocabulary";
@@ -63,52 +41,23 @@
             dgvVocabulary.Size = new Size(791, 411);
             dgvVocabulary.TabIndex = 0;
             dgvVocabulary.CellClick += dgvVocabulary_CellClick;
-<<<<<<< HEAD
-=======
->>>>>>> 88ccd62 (them,sua,xoa vocabulary,show vocabulary)
->>>>>>> 7cbf72d50f91fba888ceb01791b71dda90268081
             // 
             // ViewVocabulary
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(853, 529);
-<<<<<<< HEAD
             Controls.Add(dgvVocabulary);
             Name = "ViewVocabulary";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "ViewVocabulary";
             Load += ViewVocabulary_Load;
             ((System.ComponentModel.ISupportInitialize)dgvVocabulary).EndInit();
-=======
-<<<<<<< HEAD
-            Controls.Add(dataGridView1);
-            Name = "ViewVocabulary";
-            StartPosition = FormStartPosition.CenterScreen;
-            Text = "ViewVocabulary";
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
-=======
-            Controls.Add(dgvVocabulary);
-            Name = "ViewVocabulary";
-            StartPosition = FormStartPosition.CenterScreen;
-            Text = "ViewVocabulary";
-            Load += ViewVocabulary_Load;
-            ((System.ComponentModel.ISupportInitialize)dgvVocabulary).EndInit();
->>>>>>> 88ccd62 (them,sua,xoa vocabulary,show vocabulary)
->>>>>>> 7cbf72d50f91fba888ceb01791b71dda90268081
             ResumeLayout(false);
         }
 
         #endregion
 
-<<<<<<< HEAD
         private DataGridView dgvVocabulary;
-=======
-<<<<<<< HEAD
-        private DataGridView dataGridView1;
-=======
-        private DataGridView dgvVocabulary;
->>>>>>> 88ccd62 (them,sua,xoa vocabulary,show vocabulary)
->>>>>>> 7cbf72d50f91fba888ceb01791b71dda90268081
     }
 }
