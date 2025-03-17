@@ -28,34 +28,36 @@
         /// </summary>
         private void InitializeComponent()
         {
-            dataGridView1 = new DataGridView();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            dgvVocabulary = new DataGridView();
+            ((System.ComponentModel.ISupportInitialize)dgvVocabulary).BeginInit();
             SuspendLayout();
             // 
-            // dataGridView1
+            // dgvVocabulary
             // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(79, 68);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(714, 237);
-            dataGridView1.TabIndex = 0;
+            dgvVocabulary.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvVocabulary.Location = new Point(32, 36);
+            dgvVocabulary.Name = "dgvVocabulary";
+            dgvVocabulary.RowHeadersWidth = 51;
+            dgvVocabulary.Size = new Size(791, 411);
+            dgvVocabulary.TabIndex = 0;
+            dgvVocabulary.CellClick += dgvVocabulary_CellClick;
             // 
             // ViewVocabulary
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(853, 529);
-            Controls.Add(dataGridView1);
+            Controls.Add(dgvVocabulary);
             Name = "ViewVocabulary";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "ViewVocabulary";
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            Load += ViewVocabulary_Load;
+            ((System.ComponentModel.ISupportInitialize)dgvVocabulary).EndInit();
             ResumeLayout(false);
         }
 
         #endregion
 
-        private DataGridView dataGridView1;
+        private DataGridView dgvVocabulary;
     }
 }

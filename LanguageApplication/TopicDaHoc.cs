@@ -190,8 +190,8 @@ namespace LanguageApplication
                     if (rowsAffected > 0)
                     {
                         MessageBox.Show("Xóa thành công!");
-                        LoadComboBoxData(); // Cập nhật lại danh sách ComboBox
-                        ClearTextBoxes(); // Xóa dữ liệu trên TextBox
+                        LoadComboBoxData();
+                        ClearTextBoxes(); 
                     }
                     else
                     {
@@ -232,9 +232,10 @@ namespace LanguageApplication
 
         private void button1_Click(object sender, EventArgs e)
         {
-            TopicDetail topicDetail = new TopicDetail();
+            TopicDetail topicDetail = new TopicDetail(txtid.Text);
+           
             topicDetail.Show();
-
+            
         }
     }
 }

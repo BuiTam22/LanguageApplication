@@ -12,14 +12,20 @@ namespace LanguageApplication
 {
     public partial class TopicDetail : Form
     {
+        private string idTopic = "";
         public TopicDetail()
         {
             InitializeComponent();
+            
         }
-
+        public TopicDetail(string idTopic)
+        {
+            InitializeComponent();
+            this.idTopic = idTopic;
+        }
         private void btnViewVocabulary_Click(object sender, EventArgs e)
         {
-            ViewVocabulary viewVocabulary = new ViewVocabulary();
+            ViewVocabulary viewVocabulary = new ViewVocabulary(idTopic);
             viewVocabulary.Show();
         }
 
