@@ -190,8 +190,18 @@ namespace LanguageApplication
                     if (rowsAffected > 0)
                     {
                         MessageBox.Show("Xóa thành công!");
+<<<<<<< HEAD
                         LoadComboBoxData();
                         ClearTextBoxes(); 
+=======
+<<<<<<< HEAD
+                        LoadComboBoxData(); // Cập nhật lại danh sách ComboBox
+                        ClearTextBoxes(); // Xóa dữ liệu trên TextBox
+=======
+                        LoadComboBoxData();
+                        ClearTextBoxes(); 
+>>>>>>> 88ccd62 (them,sua,xoa vocabulary,show vocabulary)
+>>>>>>> 7cbf72d50f91fba888ceb01791b71dda90268081
                     }
                     else
                     {
@@ -232,10 +242,23 @@ namespace LanguageApplication
 
         private void button1_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             TopicDetail topicDetail = new TopicDetail(txtid.Text);
            
             topicDetail.Show();
             
+=======
+<<<<<<< HEAD
+            TopicDetail topicDetail = new TopicDetail();
+            topicDetail.Show();
+
+=======
+            TopicDetail topicDetail = new TopicDetail(txtid.Text);
+           
+            topicDetail.Show();
+            
+>>>>>>> 88ccd62 (them,sua,xoa vocabulary,show vocabulary)
+>>>>>>> 7cbf72d50f91fba888ceb01791b71dda90268081
         }
     }
 }

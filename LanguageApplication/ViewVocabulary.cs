@@ -1,5 +1,14 @@
+<<<<<<< HEAD
 ﻿using Oracle.ManagedDataAccess.Client;
 using System;
+=======
+<<<<<<< HEAD
+﻿using System;
+=======
+﻿using Oracle.ManagedDataAccess.Client;
+using System;
+>>>>>>> 88ccd62 (them,sua,xoa vocabulary,show vocabulary)
+>>>>>>> 7cbf72d50f91fba888ceb01791b71dda90268081
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,12 +17,26 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+<<<<<<< HEAD
+using System.Xml.Linq;
+=======
+<<<<<<< HEAD
+>>>>>>> 7cbf72d50f91fba888ceb01791b71dda90268081
+
+namespace LanguageApplication
+{
+    public partial class ViewVocabulary : Form
+    {
+<<<<<<< HEAD
+=======
+=======
 using System.Xml.Linq;
 
 namespace LanguageApplication
 {
     public partial class ViewVocabulary : Form
     {
+>>>>>>> 7cbf72d50f91fba888ceb01791b71dda90268081
         OracleConnection conn;
         OracleDataAdapter da;
         OracleCommand cmd;
@@ -21,10 +44,19 @@ namespace LanguageApplication
         string sql = "";
         String username = "";
         string idTopic = "";
+<<<<<<< HEAD
+=======
+>>>>>>> 88ccd62 (them,sua,xoa vocabulary,show vocabulary)
+>>>>>>> 7cbf72d50f91fba888ceb01791b71dda90268081
         public ViewVocabulary()
         {
             InitializeComponent();
         }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 7cbf72d50f91fba888ceb01791b71dda90268081
         public ViewVocabulary(string idTopic)
         {
            
@@ -119,5 +151,9 @@ namespace LanguageApplication
             }
         }
 
+<<<<<<< HEAD
+=======
+>>>>>>> 88ccd62 (them,sua,xoa vocabulary,show vocabulary)
+>>>>>>> 7cbf72d50f91fba888ceb01791b71dda90268081
     }
 }
