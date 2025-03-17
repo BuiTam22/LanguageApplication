@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
 ﻿using Oracle.ManagedDataAccess.Client;
 using System;
 using System.Collections.Generic;
@@ -27,7 +31,11 @@ namespace LanguageApplication
         }
         public ViewVocabulary(string idTopic)
         {
+<<<<<<< HEAD
+
+=======
            
+>>>>>>> main
             this.idTopic = idTopic;
             InitializeComponent();
         }
@@ -36,7 +44,11 @@ namespace LanguageApplication
             conn = KetNoi.connectDB();
             LoadVocabulary();
         }
+<<<<<<< HEAD
+        private void LoadVocabulary(string keyword = "")
+=======
         private void LoadVocabulary()
+>>>>>>> main
         {
             try
             {
@@ -49,14 +61,33 @@ namespace LanguageApplication
                 "JOIN WordType w ON v.idWordType = w.id " +
                  "WHERE v.IDTOPIC = :idTopic";
 
+<<<<<<< HEAD
+                if (!string.IsNullOrWhiteSpace(keyword))
+                {
+                    sql += " AND (LOWER(v.englishWord) LIKE LOWER(:keyword) " +
+                           "OR LOWER(v.vietnamWord) LIKE LOWER(:keyword) " +
+                           "OR LOWER(t.nameTopic) LIKE LOWER(:keyword))";
+                }
                 OracleDataAdapter da = new OracleDataAdapter(sql, conn);
                 da.SelectCommand.Parameters.Add(new OracleParameter("idTopic", idTopic));
 
+                if (!string.IsNullOrWhiteSpace(keyword))
+                {
+                    da.SelectCommand.Parameters.Add(":keyword", "%" + keyword + "%");
+                }
+=======
+                OracleDataAdapter da = new OracleDataAdapter(sql, conn);
+                da.SelectCommand.Parameters.Add(new OracleParameter("idTopic", idTopic));
+
+>>>>>>> main
                 DataTable dt = new DataTable();
                 da.Fill(dt);
                 dt.Columns.Add("STT", typeof(int));
 
+<<<<<<< HEAD
+=======
                 //Gán số thứ tự từ 1 đến n
+>>>>>>> main
                 for (int i = 0; i < dt.Rows.Count; i++)
                 {
                     dt.Rows[i]["STT"] = i + 1;
@@ -111,13 +142,24 @@ namespace LanguageApplication
                 string transcription = row.Cells["transcription"].Value.ToString();
                 string idTopic = row.Cells["idTopic"].Value.ToString();
                 string idWordType = row.Cells["idWordType"].Value.ToString();
+<<<<<<< HEAD
+                EditVocabulary edit = new EditVocabulary(id, englishWord, vietnamWord, transcription, idTopic, idWordType);
+=======
                 EditVocabulary edit = new EditVocabulary( id, englishWord, vietnamWord, transcription, idTopic, idWordType);
+>>>>>>> main
                 if (edit.ShowDialog() == DialogResult.OK)
                 {
                     LoadVocabulary();
                 }
             }
         }
+<<<<<<< HEAD
 
+        private void btnsearch_Click(object sender, EventArgs e)
+        {
+            LoadVocabulary(txtSearch.Text);
+        }
+=======
+>>>>>>> main
     }
 }

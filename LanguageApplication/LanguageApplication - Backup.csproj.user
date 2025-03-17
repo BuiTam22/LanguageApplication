@@ -1,13 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
 <<<<<<< HEAD
 =======
-  <PropertyGroup />
->>>>>>> main
-  <ItemGroup>
     <Compile Update="EditVocabulary.cs">
       <SubType>Form</SubType>
     </Compile>
+>>>>>>> 88ccd62 (them,sua,xoa vocabulary,show vocabulary)
     <Compile Update="frmTrangChu.cs">
       <SubType>Form</SubType>
     </Compile>

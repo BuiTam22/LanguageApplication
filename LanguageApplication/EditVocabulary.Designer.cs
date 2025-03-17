@@ -59,18 +59,30 @@
             label2.AutoSize = true;
             label2.Location = new Point(161, 71);
             label2.Name = "label2";
+<<<<<<< HEAD
+            label2.Size = new Size(96, 20);
+            label2.TabIndex = 1;
+            label2.Text = "English Word";
+=======
             label2.Size = new Size(92, 20);
             label2.TabIndex = 1;
             label2.Text = "EnglishWord";
+>>>>>>> main
             // 
             // label3
             // 
             label3.AutoSize = true;
             label3.Location = new Point(161, 117);
             label3.Name = "label3";
+<<<<<<< HEAD
+            label3.Size = new Size(104, 20);
+            label3.TabIndex = 2;
+            label3.Text = "Vietnam Word";
+=======
             label3.Size = new Size(100, 20);
             label3.TabIndex = 2;
             label3.Text = "VietnamWord";
+>>>>>>> main
             // 
             // label4
             // 
@@ -86,18 +98,30 @@
             label5.AutoSize = true;
             label5.Location = new Point(161, 222);
             label5.Name = "label5";
+<<<<<<< HEAD
+            label5.Size = new Size(89, 20);
+            label5.TabIndex = 4;
+            label5.Text = "Name Topic";
+=======
             label5.Size = new Size(59, 20);
             label5.TabIndex = 4;
             label5.Text = "IDTopic";
+>>>>>>> main
             // 
             // label6
             // 
             label6.AutoSize = true;
             label6.Location = new Point(161, 273);
             label6.Name = "label6";
+<<<<<<< HEAD
+            label6.Size = new Size(78, 20);
+            label6.TabIndex = 5;
+            label6.Text = "Word type";
+=======
             label6.Size = new Size(91, 20);
             label6.TabIndex = 5;
             label6.Text = "IDWordType";
+>>>>>>> main
             // 
             // txtid
             // 
