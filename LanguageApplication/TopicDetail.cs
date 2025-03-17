@@ -12,6 +12,7 @@ namespace LanguageApplication
 {
     public partial class TopicDetail : Form
     {
+<<<<<<< HEAD
         public TopicDetail()
         {
             InitializeComponent();
@@ -20,6 +21,22 @@ namespace LanguageApplication
         private void btnViewVocabulary_Click(object sender, EventArgs e)
         {
             ViewVocabulary viewVocabulary = new ViewVocabulary();
+=======
+        private string idTopic = "";
+        public TopicDetail()
+        {
+            InitializeComponent();
+            
+        }
+        public TopicDetail(string idTopic)
+        {
+            InitializeComponent();
+            this.idTopic = idTopic;
+        }
+        private void btnViewVocabulary_Click(object sender, EventArgs e)
+        {
+            ViewVocabulary viewVocabulary = new ViewVocabulary(idTopic);
+>>>>>>> 88ccd62 (them,sua,xoa vocabulary,show vocabulary)
             viewVocabulary.Show();
         }
 
