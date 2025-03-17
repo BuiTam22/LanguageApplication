@@ -456,23 +456,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Tam\\.nuget\\packages\\": {},
-    "D:\\VisualStudioShareComponents\\NuGetPackages": {}
+    "C:\\Users\\Admin\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Documents\\Dai_Hoc\\Nam_3\\Ky_2\\Lap_trinh_phan_tan\\LanguageApplication\\LanguageApplication\\LanguageApplication.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\LanguageApplication\\LanguageApplication\\LanguageApplication.csproj",
       "projectName": "LanguageApplication",
-      "projectPath": "D:\\Documents\\Dai_Hoc\\Nam_3\\Ky_2\\Lap_trinh_phan_tan\\LanguageApplication\\LanguageApplication\\LanguageApplication.csproj",
-      "packagesPath": "C:\\Users\\Tam\\.nuget\\packages\\",
-      "outputPath": "D:\\Documents\\Dai_Hoc\\Nam_3\\Ky_2\\Lap_trinh_phan_tan\\LanguageApplication\\LanguageApplication\\obj\\",
+      "projectPath": "C:\\Users\\Admin\\Desktop\\LanguageApplication\\LanguageApplication\\LanguageApplication.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Admin\\Desktop\\LanguageApplication\\LanguageApplication\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\VisualStudioShareComponents\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Tam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

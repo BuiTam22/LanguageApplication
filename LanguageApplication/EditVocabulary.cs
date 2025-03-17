@@ -55,7 +55,11 @@ namespace LanguageApplication
                     conn.Open();
                 }
                 Helper helper = new Helper();
+<<<<<<< HEAD
+                int newId = helper.GetNextId("Vocabulary"); // Gọi hàm lấy ID mới
+=======
                 int newId =helper.GetNextId("Vocabulary"); // Gọi hàm lấy ID mới
+>>>>>>> main
 
                 string sql = "INSERT INTO Vocabulary (id, englishWord, vietnamWord, transcription, idTopic, idWordType) " +
                              "VALUES (:id, :englishWord, :vietnamWord, :transcription, :idTopic, :idWordType)";
@@ -87,7 +91,11 @@ namespace LanguageApplication
             }
 
         }
+<<<<<<< HEAD
+
+=======
         
+>>>>>>> main
 
         private void LoadTopics()
         {
@@ -163,7 +171,10 @@ namespace LanguageApplication
                 string sql = "UPDATE Vocabulary SET englishWord = :englishWord, vietnamWord = :vietnamWord, " +
                              "transcription = :transcription, idTopic = :idTopic, idWordType = :idWordType " +
                              "WHERE id = :id";
+<<<<<<< HEAD
+=======
 
+>>>>>>> main
                 OracleCommand cmd = new OracleCommand(sql, conn);
 
                 cmd.Parameters.Add(":englishWord", txtEnglishWord.Text);

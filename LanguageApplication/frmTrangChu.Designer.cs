@@ -39,6 +39,10 @@
             label1 = new Label();
             label2 = new Label();
             lbusername = new Label();
+<<<<<<< HEAD
+            aboutMeToolStripMenuItem = new ToolStripMenuItem();
+=======
+>>>>>>> main
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -63,21 +67,33 @@
             // mntLogIn
             // 
             mntLogIn.Name = "mntLogIn";
+<<<<<<< HEAD
+            mntLogIn.Size = new Size(224, 26);
+=======
             mntLogIn.Size = new Size(165, 26);
+>>>>>>> main
             mntLogIn.Text = "Đăng nhập";
             mntLogIn.Click += mntLogIn_Click;
             // 
             // mntLogOut
             // 
             mntLogOut.Name = "mntLogOut";
+<<<<<<< HEAD
+            mntLogOut.Size = new Size(224, 26);
+=======
             mntLogOut.Size = new Size(165, 26);
+>>>>>>> main
             mntLogOut.Text = "Đăng xuất";
             mntLogOut.Click += mntLogOut_Click;
             // 
             // mntOut
             // 
             mntOut.Name = "mntOut";
+<<<<<<< HEAD
+            mntOut.Size = new Size(224, 26);
+=======
             mntOut.Size = new Size(165, 26);
+>>>>>>> main
             mntOut.Text = "Thoát";
             mntOut.Click += mntOut_Click;
             // 
@@ -98,6 +114,10 @@
             // 
             // thêmToolStripMenuItem
             // 
+<<<<<<< HEAD
+            thêmToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { aboutMeToolStripMenuItem });
+=======
+>>>>>>> main
             thêmToolStripMenuItem.Name = "thêmToolStripMenuItem";
             thêmToolStripMenuItem.Size = new Size(60, 24);
             thêmToolStripMenuItem.Text = "Thêm";
@@ -135,6 +155,15 @@
             lbusername.Text = "label3";
             lbusername.Click += lbusername_Click;
             // 
+<<<<<<< HEAD
+            // aboutMeToolStripMenuItem
+            // 
+            aboutMeToolStripMenuItem.Name = "aboutMeToolStripMenuItem";
+            aboutMeToolStripMenuItem.Size = new Size(224, 26);
+            aboutMeToolStripMenuItem.Text = "About Me";
+            // 
+=======
+>>>>>>> main
             // frmTrangChu
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -171,5 +200,9 @@
         private Label label1;
         private Label label2;
         private Label lbusername;
+<<<<<<< HEAD
+        private ToolStripMenuItem aboutMeToolStripMenuItem;
+=======
+>>>>>>> main
     }
 }
